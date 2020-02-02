@@ -27,13 +27,13 @@ Once you clone the repository, simply run the appropriate script:
 
 On Unix, Linux, and MacOS systems (using `bash`):
   ~~~bash
-  bash synch_test_data.sh
+  bash ./sync_test_data.sh
   ~~~
 
 On Windows (using powershell):
 
   ~~~powershell
-  powershell.exe sync_test_data.ps1
+  powershell.exe .\sync_test_data.ps1
   ~~~
 
 The initial sync will take some time.

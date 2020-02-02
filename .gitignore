@@ -2,7 +2,7 @@
 # Ignore RSYNC'd test data #
 ############################
 
-thredds-test-data/*
+local/*
 
 ######################
 # OS generated files #
