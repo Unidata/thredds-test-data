@@ -20,7 +20,7 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 ###
 
 TOP_LEVEL_DATA_DIR="${DIR}/${LOCAL_COPY_DIR}"
-FULL_TEST_DATA_PATH="${TOP_LEVEL_DATA_DIR}/${LOCAL_COPY_DIR}/thredds-test-data"
+FULL_TEST_DATA_PATH="${TOP_LEVEL_DATA_DIR}/thredds-test-data"
 
 echo ""
 if [ ! -d ${LOCAL_COPY_DIR} ]; 
